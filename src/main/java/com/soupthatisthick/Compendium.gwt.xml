@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module rename-to='compendium'>
+    <!-- Inherit the core Web Toolkit stuff.                        -->
+    <inherits name="com.google.gwt.user.User"/>
+
+    <!-- Specify the app entry point class.                         -->
+    <entry-point class="com.soupthatisthick.client.CompendiumUI"/>
+
+    <!-- Specify the paths for translatable code                    -->
+    <source path="client"/>
+    <source path="shared"/>
+
+    <!-- Specify the paths for stylesheets                         -->
+    <stylesheet src="Compendium.css"/>
+</module>

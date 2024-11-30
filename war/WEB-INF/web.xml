@@ -1,0 +1,12 @@
+<?xml version="1.0" encoging="UTF-8">
+<web-app xmlns="http://java.sun.com/xml/ns/j2ee"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-app_2_5.xsd"
+         version="2.5">
+    <!-- servlets -->
+    <!-- Default page to serve -->
+    <welcome-file-list>
+        <welcome-file>Compendium.html</welcome-file>
+    </welcome-file-list>
+
+</web-app>
