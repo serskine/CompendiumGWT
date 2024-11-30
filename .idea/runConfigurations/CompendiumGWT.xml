@@ -1,0 +1,12 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="CompendiumGWT" type="GWT.ConfigurationType" factoryName="GWT Configuration">
+    <option name="RUN_PAGE" value="WEB-INF/Compendium.html" />
+    <option name="USE_SUPER_DEV_MODE" value="true" />
+    <option name="ALTERNATIVE_JRE_PATH" value="$PROJECT_DIR$/../../../../Program Files/Java/jdk-20" />
+    <option name="WORKING_DIRECTORY" value="C:\Users\soupt\IdeaProjects\CompendiumGWT" />
+    <module name="CompendiumGWT" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

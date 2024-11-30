@@ -13,6 +13,7 @@
         <maven.compiler.target>1.8</maven.compiler.target>
         <gwtVersion>2.12.1</gwtVersion>
     </properties>
+
     <dependencies>
         <dependency>
             <groupId>org.gwtproject</groupId>
@@ -64,40 +65,17 @@
                             <goal>compile</goal>
                             <goal>test</goal>
                             <goal>run</goal>
+                            <goal>superDevMode</goal>
                         </goals>
                         <configuration>
                             <runTarget>Compendium.html</runTarget>
-                            <module>com.soupthatisthick.compendium</module>
+                            <module>com.soupthatisthick.compendium.Compendium</module>
+                            <extraJvmArgs>-noserver</extraJvmArgs>
                         </configuration>
                     </execution>
                 </executions>
             </plugin>
         </plugins>
     </build>
-
-    <profiles>
-        <profile>
-            <id>gwt-run-dev</id>
-            <properties>
-                <gwtDevVersion>2.10.0</gwtDevVersion>
-            </properties>
-            <build>
-                <plugins>
-                    <plugin>
-                        <groupId>org.codehaus.mojo</groupId>
-                        <artifactId>gwt-maven-plugin</artifactId>
-                        <configuration>
-                            <productionMode>false</productionMode>
-                            <draftCompile>true</draftCompile>
-                            <logLevel>INFO</logLevel>
-                            <modules>
-                                <module>com.soupthatisthick.compendium</module>
-                            </modules>
-                        </configuration>
-                    </plugin>
-                </plugins>
-            </build>
-        </profile>
-    </profiles>
 
 </project>

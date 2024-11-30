@@ -16,7 +16,12 @@
       </configuration>
     </facet>
     <facet type="gwt" name="GWT">
-      <configuration />
+      <configuration>
+        <setting name="compilerMaxHeapSize" value="1024" />
+        <setting name="gwtScriptOutputStyle" value="DETAILED" />
+        <setting name="gwtSdkUrl" value="file://$USER_HOME$/OneDrive/Desktop/tools/versions/gwt-2.12.1/gwt-2.12.1" />
+        <setting name="webFacet" value="Web" />
+      </configuration>
     </facet>
   </component>
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
@@ -93,5 +98,36 @@
     <orderEntry type="library" name="Maven: org.mortbay.jasper:apache-el:8.5.70" level="project" />
     <orderEntry type="library" name="Maven: org.eclipse.jdt:ecj:3.19.0" level="project" />
     <orderEntry type="library" name="Maven: org.gwtproject:gwt-servlet:2.12.1" level="project" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="file://$USER_HOME$/OneDrive/Desktop/tools/versions/gwt-2.12.1" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$USER_HOME$/OneDrive/Desktop/tools/versions/gwt-2.12.1/gwt-2.12.1/samples/DynaTableRf/src/main/java" />
+          <root url="file://$USER_HOME$/OneDrive/Desktop/tools/versions/gwt-2.12.1/gwt-2.12.1/samples/DynaTable/src" />
+          <root url="file://$USER_HOME$/OneDrive/Desktop/tools/versions/gwt-2.12.1/gwt-2.12.1/samples/Hello/src" />
+          <root url="file://$USER_HOME$/OneDrive/Desktop/tools/versions/gwt-2.12.1/gwt-2.12.1/samples/JSON/src" />
+          <root url="file://$USER_HOME$/OneDrive/Desktop/tools/versions/gwt-2.12.1/gwt-2.12.1/samples/Mail/src" />
+          <root url="file://$USER_HOME$/OneDrive/Desktop/tools/versions/gwt-2.12.1/gwt-2.12.1/samples/MobileWebApp/src/main/java" />
+          <root url="file://$USER_HOME$/OneDrive/Desktop/tools/versions/gwt-2.12.1/gwt-2.12.1/samples/MobileWebApp/src/test/java" />
+          <root url="file://$USER_HOME$/OneDrive/Desktop/tools/versions/gwt-2.12.1/gwt-2.12.1/samples/Showcase/src" />
+          <root url="file://$USER_HOME$/OneDrive/Desktop/tools/versions/gwt-2.12.1/gwt-2.12.1/samples/Validation/src/main/java" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="library" exported="" name="gwt-user" level="project" />
+    <orderEntry type="module-library">
+      <library>
+        <CLASSES>
+          <root url="jar://$USER_HOME$/OneDrive/Desktop/tools/versions/gwt-2.12.1/gwt-2.12.1/gwt-dev.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="jar://$USER_HOME$/OneDrive/Desktop/tools/versions/gwt-2.12.1/gwt-2.12.1/gwt-dev.jar!/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
   </component>
 </module>

@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact name="CompendiumGWT:GWT">
+    <output-path>$PROJECT_DIR$/out/artifacts/CompendiumGWT_GWT</output-path>
+    <root id="root">
+      <element id="gwt-compiler-output" facet="CompendiumGWT/gwt/GWT" />
+    </root>
+  </artifact>
+</component>
